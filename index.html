@@ -9,28 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
+    <!-- Start header section -->
     <section class="header">
         <nav>
             <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">COURSE</a></li>
-                    <li><a href="">BLOG</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+            </div><!-- .nav-links -->
+            <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
+
         <div class="text-box">
             <h1>World's Biggest University</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                Magnam praesentium id placeat laboriosam,<br> dolorum voluptatem 
                dolore totam earum officiis debitis similique.</p>
-            <a class="hero-btn" href="">Visit Us to Know More</a>
-        </div>
+            <a class="hero-btn" href="">Visit Us to Know More</a> 
+        </div><!-- .text-box -->
     </section>
+    <!-- End header section -->
+
+    <!-- Start course section -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Adipisci ex molestias illo itaque culpa, suscipit reprehenderit 
+            perspiciatis error quia alias? Eaque, quis iste facilis aperiam 
+            itaque voluptates incidunt recusandae consequatur.
+        </p>
+    </section>
+    <!-- End course section -->
+
+    <!-- External javascript -->
+    <script src="/main.js"></script>
 </body>
 </html>
