@@ -112,7 +112,7 @@ nav .fas {
     }
 
     .nav-links {
-        position: absolute;
+        position: fixed;
         background-color: #f44336;
         height: 100vh;
         width: 200px;
@@ -169,7 +169,7 @@ nav .fas {
     flex-basis: 31%;
     background-color: #fff3f3;
     border-radius: 10px;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     padding: 20px 12px;
     transition: 0.5s;
 }
@@ -522,6 +522,7 @@ nav .fas {
 .about-col p {
     padding: 15px 0 25px;
     text-align: justify;
+    color: #777;
 }
 
 .red-btn {
@@ -630,6 +631,77 @@ nav .fas {
     .sub-header h1 {
         font-size: 24px;
     }
+}
+
+/* contact us page */
+
+.location {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+.contact-us {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.contact-us .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us .row > .contact-col {
+    flex-basis: 48%;
+    /* margin-bottom: 30px; */
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fas {
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px 30px 10px 10px;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+.contact-col div h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col input, .contact-col textarea {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+
+@media(max-width: 700px) {
+    .contact-us .row{
+        flex-direction: column;
+    }
+}
+
+.message-box {
+    border: 1px solid #ccc;
+    padding: 10px 20px;
 }
 
 
