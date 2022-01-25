@@ -433,6 +433,51 @@ nav .fas {
     }
 }
 
+/* footer section */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: black;
+}
+
+.footer h4 {
+    margin: 20px 0 25px 0;
+    font-weight: 600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer .icons {
+    margin: 10px;
+}
+
+.icons .fab, .icons .fas {
+    color: #f44336;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.footer .far {
+    color: red;
+}
+
+.icons .fab:hover, .icons .fas:hover {
+    color: white;
+}
+
+@media(max-width: 700px) {
+    .footer p {
+        margin: 0 15px;
+    }
+}
+
 
 
 
