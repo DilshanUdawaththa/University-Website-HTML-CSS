@@ -134,6 +134,10 @@ nav .fas {
     .nav-links ul {
         padding: 30px;
     }
+
+    .text-box p {
+        text-align: justify;
+    }
 }
 
 /* course section */
@@ -169,7 +173,7 @@ nav .fas {
     flex-basis: 31%;
     background-color: #fff3f3;
     border-radius: 10px;
-    /* margin-bottom: 5%; */
+    /* margin-bottom: 10px; */
     padding: 20px 12px;
     transition: 0.5s;
 }
@@ -192,6 +196,14 @@ nav .fas {
 @media(max-width: 700px) {
     .course .row {
         flex-direction: column;
+    }
+
+    .course p {
+        text-align: justify;
+    }
+
+    .course .row > .course-col {
+        margin-bottom: 10px;
     }
 }
 
@@ -274,6 +286,10 @@ nav .fas {
     .campus .row {
         flex-direction: column;
     }
+
+    .campus p {
+        text-align: justify;
+    }
 }
 
 /* facilities section */
@@ -329,6 +345,14 @@ nav .fas {
 @media(max-width: 700px) {
     .facilities .row {
         flex-direction: column;
+    }
+
+    .facilities p {
+        text-align: justify;
+    }
+
+    .facilities .row > .facilities-col {
+        padding-bottom: 20px;
     }
 }
 
@@ -401,6 +425,10 @@ nav .fas {
     .testimonial-col img {
         margin: 0 15px 0 0;
     }
+
+    .testimonials p {
+        text-align: justify;
+    }
 }
 
 /* cta section */
@@ -428,6 +456,7 @@ nav .fas {
 @media(max-width: 700px) {
     .cta h1 {
         font-size: 24px;
+        padding: 0 5px;
     }
 }
 
@@ -539,6 +568,17 @@ nav .fas {
     .about-us .row {
         flex-direction: column;
     }
+
+    .about-col h1 {
+        text-align: center;
+    }
+
+    .about-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* blog content section */
@@ -631,6 +671,21 @@ nav .fas {
     .sub-header h1 {
         font-size: 24px;
     }
+
+    .comment-box  h3{
+        text-align: center;
+    }
+
+    .comment-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-left h2 {
+        text-align: center;
+    }
 }
 
 /* contact us page */
@@ -696,6 +751,13 @@ nav .fas {
 @media(max-width: 700px) {
     .contact-us .row{
         flex-direction: column;
+    }
+
+    .message-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
